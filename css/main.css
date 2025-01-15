@@ -1,0 +1,29 @@
+/* font */
+* {
+  font-family: "Quicksand", serif;
+}
+
+/*Header*/
+.logo {
+  font-size: 1.5rem;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+a {
+  color: black;
+}
+
+/* Main */
+h1 {
+  font-size: 100px;
+  text-align: center;
+}
+
+/* Footer */
+footer {
+  margin-top: 20rem;
+}
