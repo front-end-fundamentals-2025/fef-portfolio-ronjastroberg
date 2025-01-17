@@ -18,7 +18,13 @@ a {
   color: white;
 }
 
-/* Main */
+/* Main contact */
+.text-contact {
+  padding-left: 100px;
+}
+form {
+  padding-left: 100px;
+}
 input {
   background-color: white;
   color: black;
@@ -28,8 +34,15 @@ input {
 button {
   color: white;
   font-size: 18px;
+  margin-left: 100px;
 }
 
+#message-box {
+  height: 200px;
+  width: 400px;
+}
+
+/*Main index*/
 h1 {
   font-size: 100px;
   text-align: center;
