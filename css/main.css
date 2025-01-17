@@ -29,12 +29,14 @@ input {
   background-color: white;
   color: black;
   font-size: 18px;
+  border-radius: 10px;
 }
 
 button {
   color: white;
   font-size: 18px;
   margin-left: 100px;
+  border-radius: 10px;
 }
 
 #message-box {
