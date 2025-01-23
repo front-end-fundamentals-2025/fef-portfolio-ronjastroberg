@@ -5,6 +5,9 @@
 }
 
 /*Header*/
+.main-img {
+  width: 100%;
+}
 ul {
   list-style: none;
   padding-left: 0;
@@ -72,7 +75,7 @@ p {
 
 .main-img {
   width: 100%;
-  height: 500px;
+  height: 300%;
 }
 
 /* Footer */
