@@ -1,7 +1,7 @@
 /* font & background color */
 * {
   font-family: "Quicksand", serif;
-  background-color: rgb(242, 235, 226);
+  background-color: rgb(245, 243, 240);
 }
 
 /*Header index*/
@@ -41,6 +41,7 @@ h2 {
 #text-about-me {
   grid-column: 3/4;
   grid-row: 2/2;
+  justify-items: stretch;
 }
 
 .work {
@@ -104,10 +105,96 @@ button {
   width: 25rem;
   margin-top: 4rem;
 }
+/*Grid sections work*/
+.images-text-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(5, 0.5fr);
+}
 
+/*Main work page*/
+.florentine-main {
+  grid-column: 1;
+  grid-row: 1/2;
+  width: 95%;
+  justify-self: end;
+}
+
+.florentine-text {
+  text-align: center;
+  grid-column: 2;
+  grid-row: 1;
+  justify-self: center;
+  align-self: center;
+  margin: 0;
+}
+
+.text-work-page {
+  text-align: center;
+}
+
+.zillertal-img {
+  width: 95%;
+  grid-column: 2;
+  grid-row: 2;
+  justify-self: start;
+}
+
+.zillertal-text {
+  text-align: center;
+  grid-column: 1;
+  grid-row: 2;
+  justify-self: center;
+  align-self: center;
+}
+
+.florence-img {
+  width: 95%;
+  grid-column: 1;
+  grid-row: 3;
+  justify-self: end;
+}
+
+.florence-text {
+  text-align: center;
+  grid-column: 2;
+  grid-row: 3;
+  justify-self: center;
+  align-self: center;
+}
+
+.mountain-img {
+  width: 95%;
+  grid-column: 2;
+  grid-row: 4;
+  justify-self: start;
+}
+
+.mountains-text {
+  text-align: center;
+  grid-column: 1;
+  grid-row: 4;
+  justify-self: center;
+  align-self: center;
+}
+
+.magazine-img {
+  width: 95%;
+  grid-column: 1;
+  grid-row: 5;
+  justify-self: end;
+}
+
+.magazine-text {
+  text-align: center;
+  grid-column: 2;
+  grid-row: 5;
+  justify-self: center;
+  align-self: center;
+}
 /* Footer */
 footer {
-  margin-top: 20rem;
+  margin-top: 10rem;
 }
 
 .footer-text {
