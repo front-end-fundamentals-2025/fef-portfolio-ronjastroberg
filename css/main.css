@@ -4,7 +4,7 @@
   background-color: rgb(245, 243, 240);
 }
 
-/*Header index*/
+/*Header*/
 .main-img {
   width: 100%;
 }
@@ -28,7 +28,7 @@ p {
   color: rgb(0, 103, 79);
 }
 
-/*Main index*/
+/*Main startscreen*/
 .me {
   grid-column: 2;
   grid-row: 2;
@@ -86,7 +86,7 @@ h2 {
   justify-self: center;
 }
 
-/*Grid sections index*/
+/*Grid sections startscreen*/
 .who-am-i {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -100,6 +100,7 @@ h2 {
   grid-template-rows: repeat(2, 0.5fr);
   gap: 2rem;
 }
+
 /* Main contact */
 h1 {
   font-size: 7rem;
@@ -220,6 +221,7 @@ button {
   justify-self: center;
   align-self: center;
 }
+
 /* Footer */
 footer {
   margin-top: 10rem;
