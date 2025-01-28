@@ -113,12 +113,12 @@ h1 {
 form {
   padding-left: 7rem;
   padding-bottom: 2rem;
+  border: 1rem;
 }
 input {
   background-color: white;
   color: black;
   font-size: 1.2rem;
-  border-radius: 1rem;
   margin-top: 1rem;
 }
 
@@ -222,15 +222,15 @@ button {
   align-self: center;
 }
 
-/*Grid sections Florentine page */
+/*Grid sections Florentine page images */
 .image-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(3, 0.5fr);
+  grid-template-rows: repeat(2, 0.5fr);
   gap: 1rem;
 }
 
-/*Florentine page*/
+/*Florentine page images*/
 .florentine-logo {
   width: 100%;
   height: 99%;
@@ -254,6 +254,45 @@ button {
   grid-column: 1/3;
   grid-row: 1;
   width: 100%;
+}
+
+/*Grid section Florentine page text*/
+.text-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  gap: 4rem;
+}
+
+/*Florentine page text*/
+.florentine-workpage {
+  font-size: 9rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+h2 {
+  text-align: center;
+}
+
+.text-modern {
+  text-align: justify;
+}
+
+.modern {
+  grid-column: 1;
+  grid-row: 1;
+  margin-top: 0;
+  margin-left: 2rem;
+  justify-self: center;
+}
+
+.text-playful {
+  text-align: justify;
+}
+
+.text-memorable {
+  text-align: justify;
 }
 /* Footer */
 footer {
