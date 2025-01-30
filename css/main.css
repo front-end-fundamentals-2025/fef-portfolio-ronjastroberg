@@ -329,6 +329,9 @@ button {
   .text-about-work {
     font-size: 2rem;
   }
+  .text-about-work-florentine {
+    font-size: 2rem;
+  }
 }
 
 @media screen and (min-width: 680px) {
