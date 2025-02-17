@@ -189,7 +189,7 @@ input {
 }
 
 button {
-  color: rgb(0, 103, 79);
+  color: grey;
   font-size: 1.2rem;
   margin-left: 7rem;
   border-radius: 1rem;
@@ -199,6 +199,11 @@ button {
   height: 18rem;
   width: 25rem;
   margin-top: 4rem;
+}
+
+#submit-text {
+  padding-left: 7rem;
+  display: none;
 }
 
 @media screen and (max-width: 720px) {
